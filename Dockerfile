@@ -4,4 +4,4 @@ RUN pip install mlflow
 
 EXPOSE 5000
 
-CMD ["mlflow", "ui", "--host 0.0.0.0"]
+CMD ["mlflow", "ui", "--host=0.0.0.0"]
